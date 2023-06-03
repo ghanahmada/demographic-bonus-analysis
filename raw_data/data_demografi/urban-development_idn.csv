@@ -1,0 +1,620 @@
+Country Name,Country ISO3,Year,Indicator Name,Indicator Code,Value
+#country+name,#country+code,#date+year,#indicator+name,#indicator+code,#indicator+value+num
+Indonesia,IDN,2015,Urban land area where elevation is below 5 meters (sq. km),AG.LND.EL5M.UR.K2,5029.16204349
+Indonesia,IDN,2000,Urban land area where elevation is below 5 meters (sq. km),AG.LND.EL5M.UR.K2,4211.81835523
+Indonesia,IDN,1990,Urban land area where elevation is below 5 meters (sq. km),AG.LND.EL5M.UR.K2,3358.78388623
+Indonesia,IDN,2015,Urban land area where elevation is below 5 meters (% of total land area),AG.LND.EL5M.UR.ZS,0.266291440717653
+Indonesia,IDN,2000,Urban land area where elevation is below 5 meters (% of total land area),AG.LND.EL5M.UR.ZS,0.223013529521419
+Indonesia,IDN,1990,Urban land area where elevation is below 5 meters (% of total land area),AG.LND.EL5M.UR.ZS,0.177845810572515
+Indonesia,IDN,2015,Urban land area (sq. km),AG.LND.TOTL.UR.K2,67755.1345869
+Indonesia,IDN,2000,Urban land area (sq. km),AG.LND.TOTL.UR.K2,56810.41510525
+Indonesia,IDN,1990,Urban land area (sq. km),AG.LND.TOTL.UR.K2,43593.45193756
+Indonesia,IDN,2020,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,99.5999984741211
+Indonesia,IDN,2019,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,99.8899993896484
+Indonesia,IDN,2018,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,99.879997253418
+Indonesia,IDN,2017,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,99.8899993896484
+Indonesia,IDN,2016,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,99.8000030517578
+Indonesia,IDN,2015,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,99.8313903808594
+Indonesia,IDN,2014,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,99.7399978637695
+Indonesia,IDN,2013,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,99.6731643676758
+Indonesia,IDN,2012,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,99.1999969482422
+Indonesia,IDN,2011,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,99.3499984741211
+Indonesia,IDN,2010,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,98.9599990844727
+Indonesia,IDN,2009,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,98.9000015258789
+Indonesia,IDN,2008,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,97.5995101928711
+Indonesia,IDN,2007,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,98.1999969482422
+Indonesia,IDN,2006,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,96.9711227416992
+Indonesia,IDN,2005,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,96.6852416992188
+Indonesia,IDN,2004,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,96.4237060546875
+Indonesia,IDN,2003,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,98.0999984741211
+Indonesia,IDN,2002,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,95.9522171020508
+Indonesia,IDN,2001,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,95.7283782958984
+Indonesia,IDN,2000,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,95.5032043457031
+Indonesia,IDN,1999,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,95.2245864868164
+Indonesia,IDN,1998,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,94.9577560424805
+Indonesia,IDN,1997,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,97.5
+Indonesia,IDN,1996,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,94.3642578125
+Indonesia,IDN,1995,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,94.042236328125
+Indonesia,IDN,1994,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,94.6
+Indonesia,IDN,1993,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,93.3634490966797
+Indonesia,IDN,1992,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,93.0129928588867
+Indonesia,IDN,1991,"Access to electricity, urban (% of urban population)",EG.ELC.ACCS.UR.ZS,87.6
+Indonesia,IDN,2017,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,16.5026533008949
+Indonesia,IDN,2016,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,16.3841536261164
+Indonesia,IDN,2015,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,16.6402804220914
+Indonesia,IDN,2014,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,16.4546318303932
+Indonesia,IDN,2013,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,16.8791813214317
+Indonesia,IDN,2012,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,18.1701695058796
+Indonesia,IDN,2011,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,18.0496511685651
+Indonesia,IDN,2010,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,18.1692803289804
+Indonesia,IDN,2005,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,18.9266374508442
+Indonesia,IDN,2000,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,17.8773899840226
+Indonesia,IDN,1995,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,18.1647657361684
+Indonesia,IDN,1990,"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)",EN.ATM.PM25.MC.M3,18.0528110079028
+Indonesia,IDN,2017,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,95.5671472610627
+Indonesia,IDN,2016,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,95.6935297519892
+Indonesia,IDN,2015,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,96.142372495414
+Indonesia,IDN,2014,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,94.4972203192688
+Indonesia,IDN,2013,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,94.2109778573132
+Indonesia,IDN,2012,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,99.5136026710893
+Indonesia,IDN,2011,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,98.06412739208
+Indonesia,IDN,2010,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,96.4230587767447
+Indonesia,IDN,2005,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,99.0002113108669
+Indonesia,IDN,2000,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,97.1084722940437
+Indonesia,IDN,1995,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,97.6600941703286
+Indonesia,IDN,1990,"PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total)",EN.ATM.PM25.MC.ZS,97.6569578665325
+Indonesia,IDN,2020,Population density (people per sq. km of land area),EN.POP.DNST,144.796388212316
+Indonesia,IDN,2019,Population density (people per sq. km of land area),EN.POP.DNST,143.584633764026
+Indonesia,IDN,2018,Population density (people per sq. km of land area),EN.POP.DNST,142.244548790185
+Indonesia,IDN,2017,Population density (people per sq. km of land area),EN.POP.DNST,140.876791127014
+Indonesia,IDN,2016,Population density (people per sq. km of land area),EN.POP.DNST,139.466062394042
+Indonesia,IDN,2015,Population density (people per sq. km of land area),EN.POP.DNST,137.996989644313
+Indonesia,IDN,2014,Population density (people per sq. km of land area),EN.POP.DNST,136.47252624341
+Indonesia,IDN,2013,Population density (people per sq. km of land area),EN.POP.DNST,134.899256944936
+Indonesia,IDN,2012,Population density (people per sq. km of land area),EN.POP.DNST,133.273056091576
+Indonesia,IDN,2011,Population density (people per sq. km of land area),EN.POP.DNST,131.609691832679
+Indonesia,IDN,2010,Population density (people per sq. km of land area),EN.POP.DNST,129.967352127994
+Indonesia,IDN,2009,Population density (people per sq. km of land area),EN.POP.DNST,128.350924278263
+Indonesia,IDN,2008,Population density (people per sq. km of land area),EN.POP.DNST,126.729233099638
+Indonesia,IDN,2007,Population density (people per sq. km of land area),EN.POP.DNST,125.08970029065
+Indonesia,IDN,2006,Population density (people per sq. km of land area),EN.POP.DNST,123.459430770075
+Indonesia,IDN,2005,Population density (people per sq. km of land area),EN.POP.DNST,121.865687644173
+Indonesia,IDN,2004,Population density (people per sq. km of land area),EN.POP.DNST,120.338912682109
+Indonesia,IDN,2003,Population density (people per sq. km of land area),EN.POP.DNST,118.816438608611
+Indonesia,IDN,2002,Population density (people per sq. km of land area),EN.POP.DNST,117.23721144766
+Indonesia,IDN,2001,Population density (people per sq. km of land area),EN.POP.DNST,115.637944010154
+Indonesia,IDN,2000,Population density (people per sq. km of land area),EN.POP.DNST,114.018777439802
+Indonesia,IDN,1999,Population density (people per sq. km of land area),EN.POP.DNST,116.471850383921
+Indonesia,IDN,1998,Population density (people per sq. km of land area),EN.POP.DNST,114.737761168489
+Indonesia,IDN,1997,Population density (people per sq. km of land area),EN.POP.DNST,112.956168958417
+Indonesia,IDN,1996,Population density (people per sq. km of land area),EN.POP.DNST,111.159817727165
+Indonesia,IDN,1995,Population density (people per sq. km of land area),EN.POP.DNST,109.374830671738
+Indonesia,IDN,1994,Population density (people per sq. km of land area),EN.POP.DNST,107.601987778557
+Indonesia,IDN,1993,Population density (people per sq. km of land area),EN.POP.DNST,105.840396451697
+Indonesia,IDN,1992,Population density (people per sq. km of land area),EN.POP.DNST,104.0856362161
+Indonesia,IDN,1991,Population density (people per sq. km of land area),EN.POP.DNST,102.320764861419
+Indonesia,IDN,1990,Population density (people per sq. km of land area),EN.POP.DNST,100.553593844014
+Indonesia,IDN,1989,Population density (people per sq. km of land area),EN.POP.DNST,98.7812637656839
+Indonesia,IDN,1988,Population density (people per sq. km of land area),EN.POP.DNST,96.9847408601379
+Indonesia,IDN,1987,Population density (people per sq. km of land area),EN.POP.DNST,95.1778788564615
+Indonesia,IDN,1986,Population density (people per sq. km of land area),EN.POP.DNST,93.363918037945
+Indonesia,IDN,1985,Population density (people per sq. km of land area),EN.POP.DNST,91.5182377716566
+Indonesia,IDN,1984,Population density (people per sq. km of land area),EN.POP.DNST,89.608440192761
+Indonesia,IDN,1983,Population density (people per sq. km of land area),EN.POP.DNST,87.65358832394
+Indonesia,IDN,1982,Population density (people per sq. km of land area),EN.POP.DNST,85.687363999183
+Indonesia,IDN,1981,Population density (people per sq. km of land area),EN.POP.DNST,83.7319766832085
+Indonesia,IDN,1980,Population density (people per sq. km of land area),EN.POP.DNST,81.7948497711929
+Indonesia,IDN,1979,Population density (people per sq. km of land area),EN.POP.DNST,79.8716511092588
+Indonesia,IDN,1978,Population density (people per sq. km of land area),EN.POP.DNST,77.9715738282263
+Indonesia,IDN,1977,Population density (people per sq. km of land area),EN.POP.DNST,76.1005867838394
+Indonesia,IDN,1976,Population density (people per sq. km of land area),EN.POP.DNST,74.2565978681475
+Indonesia,IDN,1975,Population density (people per sq. km of land area),EN.POP.DNST,72.430662353649
+Indonesia,IDN,1974,Population density (people per sq. km of land area),EN.POP.DNST,70.626691764602
+Indonesia,IDN,1973,Population density (people per sq. km of land area),EN.POP.DNST,68.8403197226715
+Indonesia,IDN,1972,Population density (people per sq. km of land area),EN.POP.DNST,67.0711841110197
+Indonesia,IDN,1971,Population density (people per sq. km of land area),EN.POP.DNST,65.3284913086439
+Indonesia,IDN,1970,Population density (people per sq. km of land area),EN.POP.DNST,63.606923276495
+Indonesia,IDN,1969,Population density (people per sq. km of land area),EN.POP.DNST,61.9072108723373
+Indonesia,IDN,1968,Population density (people per sq. km of land area),EN.POP.DNST,60.2453799742765
+Indonesia,IDN,1967,Population density (people per sq. km of land area),EN.POP.DNST,58.6567171017405
+Indonesia,IDN,1966,Population density (people per sq. km of land area),EN.POP.DNST,57.1664937043559
+Indonesia,IDN,1965,Population density (people per sq. km of land area),EN.POP.DNST,55.8398891569191
+Indonesia,IDN,1964,Population density (people per sq. km of land area),EN.POP.DNST,54.4693613826681
+Indonesia,IDN,1963,Population density (people per sq. km of land area),EN.POP.DNST,52.9720226102221
+Indonesia,IDN,1962,Population density (people per sq. km of land area),EN.POP.DNST,51.5273983340417
+Indonesia,IDN,1961,Population density (people per sq. km of land area),EN.POP.DNST,50.131619534437
+Indonesia,IDN,2015,Urban population living in areas where elevation is below 5 meters (% of total population),EN.POP.EL5M.UR.ZS,6.37354752480886
+Indonesia,IDN,2000,Urban population living in areas where elevation is below 5 meters (% of total population),EN.POP.EL5M.UR.ZS,6.11108123687387
+Indonesia,IDN,1990,Urban population living in areas where elevation is below 5 meters (% of total population),EN.POP.EL5M.UR.ZS,5.83618483710796
+Indonesia,IDN,2020,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,19.41083
+Indonesia,IDN,2018,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,20.23793
+Indonesia,IDN,2016,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,21.89212
+Indonesia,IDN,2014,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,23.54632
+Indonesia,IDN,2012,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,25.20051
+Indonesia,IDN,2010,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,26.85471
+Indonesia,IDN,2008,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,28.5089
+Indonesia,IDN,2006,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,30.1631
+Indonesia,IDN,2004,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,31.81729
+Indonesia,IDN,2002,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,33.47149
+Indonesia,IDN,2000,Population living in slums (% of urban population),EN.POP.SLUM.UR.ZS,35.12568
+Indonesia,IDN,2022,Population in largest city,EN.URB.LCTY,11074811
+Indonesia,IDN,2021,Population in largest city,EN.URB.LCTY,10915364
+Indonesia,IDN,2020,Population in largest city,EN.URB.LCTY,10770487
+Indonesia,IDN,2019,Population in largest city,EN.URB.LCTY,10638689
+Indonesia,IDN,2018,Population in largest city,EN.URB.LCTY,10516927
+Indonesia,IDN,2017,Population in largest city,EN.URB.LCTY,10401144
+Indonesia,IDN,2016,Population in largest city,EN.URB.LCTY,10286636
+Indonesia,IDN,2015,Population in largest city,EN.URB.LCTY,10173388
+Indonesia,IDN,2014,Population in largest city,EN.URB.LCTY,10061387
+Indonesia,IDN,2013,Population in largest city,EN.URB.LCTY,9950619
+Indonesia,IDN,2012,Population in largest city,EN.URB.LCTY,9841221
+Indonesia,IDN,2011,Population in largest city,EN.URB.LCTY,9732728
+Indonesia,IDN,2010,Population in largest city,EN.URB.LCTY,9625579
+Indonesia,IDN,2009,Population in largest city,EN.URB.LCTY,9498081
+Indonesia,IDN,2008,Population in largest city,EN.URB.LCTY,9368193
+Indonesia,IDN,2007,Population in largest city,EN.URB.LCTY,9239730
+Indonesia,IDN,2006,Population in largest city,EN.URB.LCTY,9113202
+Indonesia,IDN,2005,Population in largest city,EN.URB.LCTY,8988406
+Indonesia,IDN,2004,Population in largest city,EN.URB.LCTY,8865488
+Indonesia,IDN,2003,Population in largest city,EN.URB.LCTY,8743919
+Indonesia,IDN,2002,Population in largest city,EN.URB.LCTY,8624180
+Indonesia,IDN,2001,Population in largest city,EN.URB.LCTY,8506081
+Indonesia,IDN,2000,Population in largest city,EN.URB.LCTY,8389759
+Indonesia,IDN,1999,Population in largest city,EN.URB.LCTY,8375897
+Indonesia,IDN,1998,Population in largest city,EN.URB.LCTY,8362355
+Indonesia,IDN,1997,Population in largest city,EN.URB.LCTY,8348834
+Indonesia,IDN,1996,Population in largest city,EN.URB.LCTY,8335354
+Indonesia,IDN,1995,Population in largest city,EN.URB.LCTY,8321858
+Indonesia,IDN,1994,Population in largest city,EN.URB.LCTY,8308403
+Indonesia,IDN,1993,Population in largest city,EN.URB.LCTY,8294970
+Indonesia,IDN,1992,Population in largest city,EN.URB.LCTY,8281577
+Indonesia,IDN,1991,Population in largest city,EN.URB.LCTY,8268168
+Indonesia,IDN,1990,Population in largest city,EN.URB.LCTY,8174756
+Indonesia,IDN,1989,Population in largest city,EN.URB.LCTY,7927047
+Indonesia,IDN,1988,Population in largest city,EN.URB.LCTY,7687169
+Indonesia,IDN,1987,Population in largest city,EN.URB.LCTY,7453919
+Indonesia,IDN,1986,Population in largest city,EN.URB.LCTY,7228052
+Indonesia,IDN,1985,Population in largest city,EN.URB.LCTY,7009030
+Indonesia,IDN,1984,Population in largest city,EN.URB.LCTY,6796932
+Indonesia,IDN,1983,Population in largest city,EN.URB.LCTY,6590694
+Indonesia,IDN,1982,Population in largest city,EN.URB.LCTY,6390985
+Indonesia,IDN,1981,Population in largest city,EN.URB.LCTY,6197327
+Indonesia,IDN,1980,Population in largest city,EN.URB.LCTY,5984256
+Indonesia,IDN,1979,Population in largest city,EN.URB.LCTY,5728921
+Indonesia,IDN,1978,Population in largest city,EN.URB.LCTY,5484810
+Indonesia,IDN,1977,Population in largest city,EN.URB.LCTY,5251100
+Indonesia,IDN,1976,Population in largest city,EN.URB.LCTY,5027651
+Indonesia,IDN,1975,Population in largest city,EN.URB.LCTY,4813132
+Indonesia,IDN,1974,Population in largest city,EN.URB.LCTY,4608043
+Indonesia,IDN,1973,Population in largest city,EN.URB.LCTY,4411693
+Indonesia,IDN,1972,Population in largest city,EN.URB.LCTY,4223963
+Indonesia,IDN,1971,Population in largest city,EN.URB.LCTY,4052372
+Indonesia,IDN,1970,Population in largest city,EN.URB.LCTY,3915406
+Indonesia,IDN,1969,Population in largest city,EN.URB.LCTY,3783069
+Indonesia,IDN,1968,Population in largest city,EN.URB.LCTY,3655378
+Indonesia,IDN,1967,Population in largest city,EN.URB.LCTY,3531663
+Indonesia,IDN,1966,Population in largest city,EN.URB.LCTY,3412296
+Indonesia,IDN,1965,Population in largest city,EN.URB.LCTY,3296964
+Indonesia,IDN,1964,Population in largest city,EN.URB.LCTY,3185681
+Indonesia,IDN,1963,Population in largest city,EN.URB.LCTY,3077862
+Indonesia,IDN,1962,Population in largest city,EN.URB.LCTY,2973833
+Indonesia,IDN,1961,Population in largest city,EN.URB.LCTY,2847651
+Indonesia,IDN,1960,Population in largest city,EN.URB.LCTY,2678740
+Indonesia,IDN,2022,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,6.93871570331653
+Indonesia,IDN,2021,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,6.95985530563958
+Indonesia,IDN,2020,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,6.9945915418898
+Indonesia,IDN,2019,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,7.04894506759983
+Indonesia,IDN,2018,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,7.11782758414687
+Indonesia,IDN,2017,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,7.1944174583552
+Indonesia,IDN,2016,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,7.27637726157394
+Indonesia,IDN,2015,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,7.36509805834519
+Indonesia,IDN,2014,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,7.46025468808849
+Indonesia,IDN,2013,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,7.56186380611225
+Indonesia,IDN,2012,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,7.67022579442048
+Indonesia,IDN,2011,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,7.78493108131771
+Indonesia,IDN,2010,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,7.90288887031719
+Indonesia,IDN,2009,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,8.02177373586754
+Indonesia,IDN,2008,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,8.14578530204364
+Indonesia,IDN,2007,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,8.27636982222698
+Indonesia,IDN,2006,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,8.41186440360377
+Indonesia,IDN,2005,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,8.55080496037302
+Indonesia,IDN,2004,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,8.6908866957407
+Indonesia,IDN,2003,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,8.83675637182626
+Indonesia,IDN,2002,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,8.99291252532345
+Indonesia,IDN,2001,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,9.15742935297855
+Indonesia,IDN,2000,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,9.33079817495467
+Indonesia,IDN,1999,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,9.7315099617915
+Indonesia,IDN,1998,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,10.161286502784
+Indonesia,IDN,1997,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,10.6233545497568
+Indonesia,IDN,1996,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,11.1165428190577
+Indonesia,IDN,1995,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,11.6420486018356
+Indonesia,IDN,1994,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,12.2013042955202
+Indonesia,IDN,1993,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,12.7964281314361
+Indonesia,IDN,1992,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,13.4301086793243
+Indonesia,IDN,1991,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,14.109924281862
+Indonesia,IDN,1990,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,14.673299950086
+Indonesia,IDN,1989,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,14.9397175511146
+Indonesia,IDN,1988,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,15.2258512355129
+Indonesia,IDN,1987,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,15.5311030282563
+Indonesia,IDN,1986,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,15.8555010054395
+Indonesia,IDN,1985,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,16.2045776984674
+Indonesia,IDN,1984,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,16.586346008744
+Indonesia,IDN,1983,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,17.0000264130409
+Indonesia,IDN,1982,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,17.4410847588768
+Indonesia,IDN,1981,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,17.9076036059278
+Indonesia,IDN,1980,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,18.2708274782833
+Indonesia,IDN,1979,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,18.3950964142393
+Indonesia,IDN,1978,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,18.5294179649082
+Indonesia,IDN,1977,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,18.6732355186411
+Indonesia,IDN,1976,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,18.825599455173
+Indonesia,IDN,1975,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,18.9893680209427
+Indonesia,IDN,1974,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,19.1644526343619
+Indonesia,IDN,1973,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,19.3522332241485
+Indonesia,IDN,1972,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,19.5533727965577
+Indonesia,IDN,1971,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,19.7493389793453
+Indonesia,IDN,1970,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,19.9048236307931
+Indonesia,IDN,1969,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,20.0680891533134
+Indonesia,IDN,1968,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,20.2386563541951
+Indonesia,IDN,1967,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,20.3988329275511
+Indonesia,IDN,1966,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,20.5434190121881
+Indonesia,IDN,1965,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,20.6423865639324
+Indonesia,IDN,1964,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,20.771125375031
+Indonesia,IDN,1963,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,20.9644958721999
+Indonesia,IDN,1962,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,21.1570903283475
+Indonesia,IDN,1961,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,21.1564313106604
+Indonesia,IDN,1960,Population in the largest city (% of urban population),EN.URB.LCTY.UR.ZS,20.7790745037419
+Indonesia,IDN,2022,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,38807534
+Indonesia,IDN,2021,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,38027451
+Indonesia,IDN,2020,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,37267991
+Indonesia,IDN,2019,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,36532764
+Indonesia,IDN,2018,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,35822488
+Indonesia,IDN,2017,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,35135475
+Indonesia,IDN,2016,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,34467418
+Indonesia,IDN,2015,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,33817651
+Indonesia,IDN,2014,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,33185536
+Indonesia,IDN,2013,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,32570463
+Indonesia,IDN,2012,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,31972655
+Indonesia,IDN,2011,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,31389108
+Indonesia,IDN,2010,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,30821722
+Indonesia,IDN,2009,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,30228745
+Indonesia,IDN,2008,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,29647220
+Indonesia,IDN,2007,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,29082450
+Indonesia,IDN,2006,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,28535975
+Indonesia,IDN,2005,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,28006233
+Indonesia,IDN,2004,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,27493193
+Indonesia,IDN,2003,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,26994071
+Indonesia,IDN,2002,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,26508675
+Indonesia,IDN,2001,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,26037458
+Indonesia,IDN,2000,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,25580449
+Indonesia,IDN,1999,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,25050584
+Indonesia,IDN,1998,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,24554649
+Indonesia,IDN,1997,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,24088985
+Indonesia,IDN,1996,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,23651392
+Indonesia,IDN,1995,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,23237629
+Indonesia,IDN,1994,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,22847254
+Indonesia,IDN,1993,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,22477722
+Indonesia,IDN,1992,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,22127751
+Indonesia,IDN,1991,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,21794373
+Indonesia,IDN,1990,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,21350438
+Indonesia,IDN,1989,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,20676113
+Indonesia,IDN,1988,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,20028261
+Indonesia,IDN,1987,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,19403027
+Indonesia,IDN,1986,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,18801879
+Indonesia,IDN,1985,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,18222849
+Indonesia,IDN,1984,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,17665678
+Indonesia,IDN,1983,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,17127135
+Indonesia,IDN,1982,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,16608579
+Indonesia,IDN,1981,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,16108406
+Indonesia,IDN,1980,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,15548441
+Indonesia,IDN,1979,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,14860839
+Indonesia,IDN,1978,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,14208951
+Indonesia,IDN,1977,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,13589793
+Indonesia,IDN,1976,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,13002281
+Indonesia,IDN,1975,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,12442285
+Indonesia,IDN,1974,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,11910535
+Indonesia,IDN,1973,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,11404695
+Indonesia,IDN,1972,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,10923974
+Indonesia,IDN,1971,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,10483531
+Indonesia,IDN,1970,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,10122429
+Indonesia,IDN,1969,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,9775908
+Indonesia,IDN,1968,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,9443719
+Indonesia,IDN,1967,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,9123862
+Indonesia,IDN,1966,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,8817058
+Indonesia,IDN,1965,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,8522274
+Indonesia,IDN,1964,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,8239340
+Indonesia,IDN,1963,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,7966584
+Indonesia,IDN,1962,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,7704658
+Indonesia,IDN,1961,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,7409044
+Indonesia,IDN,1960,Population in urban agglomerations of more than 1 million,EN.URB.MCTY,7043578
+Indonesia,IDN,2022,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,14.0861507754777
+Indonesia,IDN,2021,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,13.8911443775645
+Indonesia,IDN,2020,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,13.7086255002934
+Indonesia,IDN,2019,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,13.5515891331941
+Indonesia,IDN,2018,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,13.4133041741913
+Indonesia,IDN,2017,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,13.2837911145263
+Indonesia,IDN,2016,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,13.1630299955262
+Indonesia,IDN,2015,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,13.0523732557207
+Indonesia,IDN,2014,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,12.9514759996986
+Indonesia,IDN,2013,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,12.8596762207767
+Indonesia,IDN,2012,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,12.7776798983002
+Indonesia,IDN,2011,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,12.7030135532704
+Indonesia,IDN,2010,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,12.6310160597429
+Indonesia,IDN,2009,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,12.54402110265
+Indonesia,IDN,2008,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,12.4601373232526
+Indonesia,IDN,2007,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,12.3829778901268
+Indonesia,IDN,2006,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,12.3107384621659
+Indonesia,IDN,2005,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,12.2402112602853
+Indonesia,IDN,2004,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,12.1684358531131
+Indonesia,IDN,2003,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,12.1006169796725
+Indonesia,IDN,2002,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,12.0430974355906
+Indonesia,IDN,2001,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.9926146837917
+Indonesia,IDN,2000,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.9494369618028
+Indonesia,IDN,1999,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.8724885591926
+Indonesia,IDN,1998,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.8133273614919
+Indonesia,IDN,1997,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.7720860175313
+Indonesia,IDN,1996,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.7450199862404
+Indonesia,IDN,1995,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.727874230768
+Indonesia,IDN,1994,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.7208361692231
+Indonesia,IDN,1993,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.7231876760622
+Indonesia,IDN,1992,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.735223210615
+Indonesia,IDN,1991,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.7577841035883
+Indonesia,IDN,1990,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.7207140799845
+Indonesia,IDN,1989,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.5541818594815
+Indonesia,IDN,1988,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.3994713794553
+Indonesia,IDN,1987,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.2532598188659
+Indonesia,IDN,1986,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,11.1164742081919
+Indonesia,IDN,1985,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,10.9914125131021
+Indonesia,IDN,1984,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,10.8824397748608
+Indonesia,IDN,1983,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,10.7859872143196
+Indonesia,IDN,1982,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,10.6994283233448
+Indonesia,IDN,1981,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,10.6195497357155
+Indonesia,IDN,1980,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,10.493147334997
+Indonesia,IDN,1979,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,10.2705936462604
+Indonesia,IDN,1978,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,10.0593656833379
+Indonesia,IDN,1977,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,9.85756651202358
+Indonesia,IDN,1976,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,9.66561249440375
+Indonesia,IDN,1975,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,9.48249381741008
+Indonesia,IDN,1974,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,9.30909121433524
+Indonesia,IDN,1973,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,9.1450414131105
+Indonesia,IDN,1972,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,8.99061838589951
+Indonesia,IDN,1971,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,8.85828879592227
+Indonesia,IDN,1970,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,8.78466552263151
+Indonesia,IDN,1969,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,8.71687358468732
+Indonesia,IDN,1968,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,8.65294987921015
+Indonesia,IDN,1967,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,8.58629558502359
+Indonesia,IDN,1966,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,8.51387014458759
+Indonesia,IDN,1965,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,8.42472678447513
+Indonesia,IDN,1964,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,8.34997203599398
+Indonesia,IDN,1963,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,8.3017655422934
+Indonesia,IDN,1962,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,8.25391573019667
+Indonesia,IDN,1961,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,8.15821823898093
+Indonesia,IDN,1960,Population in urban agglomerations of more than 1 million (% of total population),EN.URB.MCTY.TL.ZS,7.96939171964761
+Indonesia,IDN,2016,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.61
+Indonesia,IDN,2014,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.62
+Indonesia,IDN,2012,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.47
+Indonesia,IDN,2010,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.51
+Indonesia,IDN,2008,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.42
+Indonesia,IDN,2006,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.44
+Indonesia,IDN,2004,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.18
+Indonesia,IDN,2002,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.19
+Indonesia,IDN,2000,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.06
+Indonesia,IDN,1998,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.07
+Indonesia,IDN,1995,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.2
+Indonesia,IDN,1991,Pump price for diesel fuel (US$ per liter),EP.PMP.DESL.CD,0.13
+Indonesia,IDN,2016,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.63
+Indonesia,IDN,2014,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.93
+Indonesia,IDN,2012,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.47
+Indonesia,IDN,2010,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.79
+Indonesia,IDN,2008,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.5
+Indonesia,IDN,2006,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.57
+Indonesia,IDN,2004,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.27
+Indonesia,IDN,2002,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.27
+Indonesia,IDN,2000,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.17
+Indonesia,IDN,1998,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.16
+Indonesia,IDN,1995,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.44
+Indonesia,IDN,1991,Pump price for gasoline (US$ per liter),EP.PMP.SGAS.CD,0.24
+Indonesia,IDN,2019,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,11.3
+Indonesia,IDN,2018,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,11.6
+Indonesia,IDN,2017,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,11.8
+Indonesia,IDN,2016,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,12.1
+Indonesia,IDN,2015,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,12.3
+Indonesia,IDN,2014,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,12.7
+Indonesia,IDN,2013,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,12.9
+Indonesia,IDN,2012,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,13
+Indonesia,IDN,2011,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,13.8
+Indonesia,IDN,2010,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,13.7
+Indonesia,IDN,2009,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,13.9
+Indonesia,IDN,2008,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,13.5
+Indonesia,IDN,2007,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,13.7
+Indonesia,IDN,2006,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,14.2
+Indonesia,IDN,2005,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,14.3
+Indonesia,IDN,2004,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,14.4
+Indonesia,IDN,2003,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,14.5
+Indonesia,IDN,2002,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,14.8
+Indonesia,IDN,2001,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,14.6
+Indonesia,IDN,2000,"Mortality caused by road traffic injury (per 100,000 population)",SH.STA.TRAF.P5,14.5
+Indonesia,IDN,2021,Urban population growth (annual %),SP.URB.GROW,1.83401585381079
+Indonesia,IDN,2020,Urban population growth (annual %),SP.URB.GROW,2.00532025898625
+Indonesia,IDN,2019,Urban population growth (annual %),SP.URB.GROW,2.12358021200536
+Indonesia,IDN,2018,Urban population growth (annual %),SP.URB.GROW,2.17730622664563
+Indonesia,IDN,2017,Urban population growth (annual %),SP.URB.GROW,2.23979602121327
+Indonesia,IDN,2016,Urban population growth (annual %),SP.URB.GROW,2.31895402779747
+Indonesia,IDN,2015,Urban population growth (annual %),SP.URB.GROW,2.39074535293767
+Indonesia,IDN,2014,Urban population growth (annual %),SP.URB.GROW,2.45984085200218
+Indonesia,IDN,2013,Urban population growth (annual %),SP.URB.GROW,2.5283330144614
+Indonesia,IDN,2012,Urban population growth (annual %),SP.URB.GROW,2.59294607419067
+Indonesia,IDN,2011,Urban population growth (annual %),SP.URB.GROW,2.61086126042535
+Indonesia,IDN,2010,Urban population growth (annual %),SP.URB.GROW,2.82654450900766
+Indonesia,IDN,2009,Urban population growth (annual %),SP.URB.GROW,2.91106412062858
+Indonesia,IDN,2008,Urban population growth (annual %),SP.URB.GROW,2.9711356042071
+Indonesia,IDN,2007,Urban population growth (annual %),SP.URB.GROW,3.00272263603897
+Indonesia,IDN,2006,Urban population growth (annual %),SP.URB.GROW,3.01708943811632
+Indonesia,IDN,2005,Urban population growth (annual %),SP.URB.GROW,3.00190831666375
+Indonesia,IDN,2004,Urban population growth (annual %),SP.URB.GROW,3.0452411261964
+Indonesia,IDN,2003,Urban population growth (annual %),SP.URB.GROW,3.13054882618811
+Indonesia,IDN,2002,Urban population growth (annual %),SP.URB.GROW,3.19172975254904
+Indonesia,IDN,2001,Urban population growth (annual %),SP.URB.GROW,3.25245836016092
+Indonesia,IDN,2000,Urban population growth (annual %),SP.URB.GROW,4.3702128806786
+Indonesia,IDN,1999,Urban population growth (annual %),SP.URB.GROW,4.48340785212608
+Indonesia,IDN,1998,Urban population growth (annual %),SP.URB.GROW,4.60879760864385
+Indonesia,IDN,1997,Urban population growth (annual %),SP.URB.GROW,4.69954075917009
+Indonesia,IDN,1996,Urban population growth (annual %),SP.URB.GROW,4.78095202193039
+Indonesia,IDN,1995,Urban population growth (annual %),SP.URB.GROW,4.85375668638151
+Indonesia,IDN,1994,Urban population growth (annual %),SP.URB.GROW,4.92413295587967
+Indonesia,IDN,1993,Urban population growth (annual %),SP.URB.GROW,4.99489208309661
+Indonesia,IDN,1992,Urban population growth (annual %),SP.URB.GROW,5.09997450757328
+Indonesia,IDN,1991,Urban population growth (annual %),SP.URB.GROW,5.05132044291076
+Indonesia,IDN,1990,Urban population growth (annual %),SP.URB.GROW,4.87640479493973
+Indonesia,IDN,1989,Urban population growth (annual %),SP.URB.GROW,4.9699456078895
+Indonesia,IDN,1988,Urban population growth (annual %),SP.URB.GROW,5.06625788170092
+Indonesia,IDN,1987,Urban population growth (annual %),SP.URB.GROW,5.14422138166778
+Indonesia,IDN,1986,Urban population growth (annual %),SP.URB.GROW,5.25475188309665
+Indonesia,IDN,1985,Urban population growth (annual %),SP.URB.GROW,5.40140348238266
+Indonesia,IDN,1984,Urban population growth (annual %),SP.URB.GROW,5.54477503113762
+Indonesia,IDN,1983,Urban population growth (annual %),SP.URB.GROW,5.63839686922389
+Indonesia,IDN,1982,Urban population growth (annual %),SP.URB.GROW,5.71671226417467
+Indonesia,IDN,1981,Urban population growth (annual %),SP.URB.GROW,5.50663054493325
+Indonesia,IDN,1980,Urban population growth (annual %),SP.URB.GROW,5.03832835326425
+Indonesia,IDN,1979,Urban population growth (annual %),SP.URB.GROW,5.08202521510349
+Indonesia,IDN,1978,Urban population growth (annual %),SP.URB.GROW,5.12764882988017
+Indonesia,IDN,1977,Urban population growth (annual %),SP.URB.GROW,5.16110752429476
+Indonesia,IDN,1976,Urban population growth (annual %),SP.URB.GROW,5.22664893072496
+Indonesia,IDN,1975,Urban population growth (annual %),SP.URB.GROW,5.27226537543276
+Indonesia,IDN,1974,Urban population growth (annual %),SP.URB.GROW,5.32954261157117
+Indonesia,IDN,1973,Urban population growth (annual %),SP.URB.GROW,5.38246973160453
+Indonesia,IDN,1972,Urban population growth (annual %),SP.URB.GROW,5.14436264806077
+Indonesia,IDN,1971,Urban population growth (annual %),SP.URB.GROW,4.22254353964612
+Indonesia,IDN,1970,Urban population growth (annual %),SP.URB.GROW,4.25522961006173
+Indonesia,IDN,1969,Urban population growth (annual %),SP.URB.GROW,4.27995845303558
+Indonesia,IDN,1968,Urban population growth (annual %),SP.URB.GROW,4.23138762274074
+Indonesia,IDN,1967,Urban population growth (annual %),SP.URB.GROW,4.14464434794523
+Indonesia,IDN,1966,Urban population growth (annual %),SP.URB.GROW,3.91892485804576
+Indonesia,IDN,1965,Urban population growth (annual %),SP.URB.GROW,4.05532211977029
+Indonesia,IDN,1964,Urban population growth (annual %),SP.URB.GROW,4.36973958558921
+Indonesia,IDN,1963,Urban population growth (annual %),SP.URB.GROW,4.35282622230616
+Indonesia,IDN,1962,Urban population growth (annual %),SP.URB.GROW,4.33260999549454
+Indonesia,IDN,1961,Urban population growth (annual %),SP.URB.GROW,4.31504158824118
+Indonesia,IDN,2021,Urban population,SP.URB.TOTL,156833203
+Indonesia,IDN,2020,Urban population,SP.URB.TOTL,153983073
+Indonesia,IDN,2019,Urban population,SP.URB.TOTL,150925974
+Indonesia,IDN,2018,Urban population,SP.URB.TOTL,147754731
+Indonesia,IDN,2017,Urban population,SP.URB.TOTL,144572428
+Indonesia,IDN,2016,Urban population,SP.URB.TOTL,141370295
+Indonesia,IDN,2015,Urban population,SP.URB.TOTL,138129702
+Indonesia,IDN,2014,Urban population,SP.URB.TOTL,134866535
+Indonesia,IDN,2013,Urban population,SP.URB.TOTL,131589503
+Indonesia,IDN,2012,Urban population,SP.URB.TOTL,128304189
+Indonesia,IDN,2011,Urban population,SP.URB.TOTL,125020092
+Indonesia,IDN,2010,Urban population,SP.URB.TOTL,121798233
+Indonesia,IDN,2009,Urban population,SP.URB.TOTL,118403751
+Indonesia,IDN,2008,Urban population,SP.URB.TOTL,115006628
+Indonesia,IDN,2007,Urban population,SP.URB.TOTL,111639888
+Indonesia,IDN,2006,Urban population,SP.URB.TOTL,108337481
+Indonesia,IDN,2005,Urban population,SP.URB.TOTL,105117659
+Indonesia,IDN,2004,Urban population,SP.URB.TOTL,102009016
+Indonesia,IDN,2003,Urban population,SP.URB.TOTL,98949418
+Indonesia,IDN,2002,Urban population,SP.URB.TOTL,95899743
+Indonesia,IDN,2001,Urban population,SP.URB.TOTL,92887214
+Indonesia,IDN,2000,Urban population,SP.URB.TOTL,89914698
+Indonesia,IDN,1999,Urban population,SP.URB.TOTL,86069860
+Indonesia,IDN,1998,Urban population,SP.URB.TOTL,82296223
+Indonesia,IDN,1997,Urban population,SP.URB.TOTL,78589432
+Indonesia,IDN,1996,Urban population,SP.URB.TOTL,74981531
+Indonesia,IDN,1995,Urban population,SP.URB.TOTL,71481045
+Indonesia,IDN,1994,Urban population,SP.URB.TOTL,68094384
+Indonesia,IDN,1993,Urban population,SP.URB.TOTL,64822542
+Indonesia,IDN,1992,Urban population,SP.URB.TOTL,61664259
+Indonesia,IDN,1991,Urban population,SP.URB.TOTL,58598245
+Indonesia,IDN,1990,Urban population,SP.URB.TOTL,55711776
+Indonesia,IDN,1989,Urban population,SP.URB.TOTL,53060220
+Indonesia,IDN,1988,Urban population,SP.URB.TOTL,50487614
+Indonesia,IDN,1987,Urban population,SP.URB.TOTL,47993494
+Indonesia,IDN,1986,Urban population,SP.URB.TOTL,45587030
+Indonesia,IDN,1985,Urban population,SP.URB.TOTL,43253395
+Indonesia,IDN,1984,Urban population,SP.URB.TOTL,40979080
+Indonesia,IDN,1983,Urban population,SP.URB.TOTL,38768728
+Indonesia,IDN,1982,Urban population,SP.URB.TOTL,36643277
+Indonesia,IDN,1981,Urban population,SP.URB.TOTL,34607238
+Indonesia,IDN,1980,Urban population,SP.URB.TOTL,32753065
+Indonesia,IDN,1979,Urban population,SP.URB.TOTL,31143740
+Indonesia,IDN,1978,Urban population,SP.URB.TOTL,29600552
+Indonesia,IDN,1977,Urban population,SP.URB.TOTL,28120997
+Indonesia,IDN,1976,Urban population,SP.URB.TOTL,26706459
+Indonesia,IDN,1975,Urban population,SP.URB.TOTL,25346457
+Indonesia,IDN,1974,Urban population,SP.URB.TOTL,24044741
+Indonesia,IDN,1973,Urban population,SP.URB.TOTL,22796816
+Indonesia,IDN,1972,Urban population,SP.URB.TOTL,21602222
+Indonesia,IDN,1971,Urban population,SP.URB.TOTL,20519026
+Indonesia,IDN,1970,Urban population,SP.URB.TOTL,19670639
+Indonesia,IDN,1969,Urban population,SP.URB.TOTL,18851167
+Indonesia,IDN,1968,Urban population,SP.URB.TOTL,18061367
+Indonesia,IDN,1967,Urban population,SP.URB.TOTL,17313064
+Indonesia,IDN,1966,Urban population,SP.URB.TOTL,16610166
+Indonesia,IDN,1965,Urban population,SP.URB.TOTL,15971816
+Indonesia,IDN,1964,Urban population,SP.URB.TOTL,15337065
+Indonesia,IDN,1963,Urban population,SP.URB.TOTL,14681307
+Indonesia,IDN,1962,Urban population,SP.URB.TOTL,14055964
+Indonesia,IDN,1961,Urban population,SP.URB.TOTL,13459978
+Indonesia,IDN,1960,Urban population,SP.URB.TOTL,12891527
+Indonesia,IDN,2021,Urban population (% of total population),SP.URB.TOTL.IN.ZS,57.29
+Indonesia,IDN,2020,Urban population (% of total population),SP.URB.TOTL.IN.ZS,56.641
+Indonesia,IDN,2019,Urban population (% of total population),SP.URB.TOTL.IN.ZS,55.985
+Indonesia,IDN,2018,Urban population (% of total population),SP.URB.TOTL.IN.ZS,55.325
+Indonesia,IDN,2017,Urban population (% of total population),SP.URB.TOTL.IN.ZS,54.659
+Indonesia,IDN,2016,Urban population (% of total population),SP.URB.TOTL.IN.ZS,53.989
+Indonesia,IDN,2015,Urban population (% of total population),SP.URB.TOTL.IN.ZS,53.313
+Indonesia,IDN,2014,Urban population (% of total population),SP.URB.TOTL.IN.ZS,52.635
+Indonesia,IDN,2013,Urban population (% of total population),SP.URB.TOTL.IN.ZS,51.955
+Indonesia,IDN,2012,Urban population (% of total population),SP.URB.TOTL.IN.ZS,51.276
+Indonesia,IDN,2011,Urban population (% of total population),SP.URB.TOTL.IN.ZS,50.595
+Indonesia,IDN,2010,Urban population (% of total population),SP.URB.TOTL.IN.ZS,49.914
+Indonesia,IDN,2009,Urban population (% of total population),SP.URB.TOTL.IN.ZS,49.134
+Indonesia,IDN,2008,Urban population (% of total population),SP.URB.TOTL.IN.ZS,48.335
+Indonesia,IDN,2007,Urban population (% of total population),SP.URB.TOTL.IN.ZS,47.535
+Indonesia,IDN,2006,Urban population (% of total population),SP.URB.TOTL.IN.ZS,46.738
+Indonesia,IDN,2005,Urban population (% of total population),SP.URB.TOTL.IN.ZS,45.942
+Indonesia,IDN,2004,Urban population (% of total population),SP.URB.TOTL.IN.ZS,45.149
+Indonesia,IDN,2003,Urban population (% of total population),SP.URB.TOTL.IN.ZS,44.356
+Indonesia,IDN,2002,Urban population (% of total population),SP.URB.TOTL.IN.ZS,43.568
+Indonesia,IDN,2001,Urban population (% of total population),SP.URB.TOTL.IN.ZS,42.783
+Indonesia,IDN,2000,Urban population (% of total population),SP.URB.TOTL.IN.ZS,42.002
+Indonesia,IDN,1999,Urban population (% of total population),SP.URB.TOTL.IN.ZS,40.792
+Indonesia,IDN,1998,Urban population (% of total population),SP.URB.TOTL.IN.ZS,39.593
+Indonesia,IDN,1997,Urban population (% of total population),SP.URB.TOTL.IN.ZS,38.406
+Indonesia,IDN,1996,Urban population (% of total population),SP.URB.TOTL.IN.ZS,37.235
+Indonesia,IDN,1995,Urban population (% of total population),SP.URB.TOTL.IN.ZS,36.076
+Indonesia,IDN,1994,Urban population (% of total population),SP.URB.TOTL.IN.ZS,34.933
+Indonesia,IDN,1993,Urban population (% of total population),SP.URB.TOTL.IN.ZS,33.808
+Indonesia,IDN,1992,Urban population (% of total population),SP.URB.TOTL.IN.ZS,32.703
+Indonesia,IDN,1991,Urban population (% of total population),SP.URB.TOTL.IN.ZS,31.613
+Indonesia,IDN,1990,Urban population (% of total population),SP.URB.TOTL.IN.ZS,30.584
+Indonesia,IDN,1989,Urban population (% of total population),SP.URB.TOTL.IN.ZS,29.651
+Indonesia,IDN,1988,Urban population (% of total population),SP.URB.TOTL.IN.ZS,28.736
+Indonesia,IDN,1987,Urban population (% of total population),SP.URB.TOTL.IN.ZS,27.835
+Indonesia,IDN,1986,Urban population (% of total population),SP.URB.TOTL.IN.ZS,26.953
+Indonesia,IDN,1985,Urban population (% of total population),SP.URB.TOTL.IN.ZS,26.089
+Indonesia,IDN,1984,Urban population (% of total population),SP.URB.TOTL.IN.ZS,25.244
+Indonesia,IDN,1983,Urban population (% of total population),SP.URB.TOTL.IN.ZS,24.415
+Indonesia,IDN,1982,Urban population (% of total population),SP.URB.TOTL.IN.ZS,23.606
+Indonesia,IDN,1981,Urban population (% of total population),SP.URB.TOTL.IN.ZS,22.815
+Indonesia,IDN,1980,Urban population (% of total population),SP.URB.TOTL.IN.ZS,22.104
+Indonesia,IDN,1979,Urban population (% of total population),SP.URB.TOTL.IN.ZS,21.524
+Indonesia,IDN,1978,Urban population (% of total population),SP.URB.TOTL.IN.ZS,20.956
+Indonesia,IDN,1977,Urban population (% of total population),SP.URB.TOTL.IN.ZS,20.398
+Indonesia,IDN,1976,Urban population (% of total population),SP.URB.TOTL.IN.ZS,19.853
+Indonesia,IDN,1975,Urban population (% of total population),SP.URB.TOTL.IN.ZS,19.317
+Indonesia,IDN,1974,Urban population (% of total population),SP.URB.TOTL.IN.ZS,18.793
+Indonesia,IDN,1973,Urban population (% of total population),SP.URB.TOTL.IN.ZS,18.28
+Indonesia,IDN,1972,Urban population (% of total population),SP.URB.TOTL.IN.ZS,17.779
+Indonesia,IDN,1971,Urban population (% of total population),SP.URB.TOTL.IN.ZS,17.338
+Indonesia,IDN,1970,Urban population (% of total population),SP.URB.TOTL.IN.ZS,17.071
+Indonesia,IDN,1969,Urban population (% of total population),SP.URB.TOTL.IN.ZS,16.809
+Indonesia,IDN,1968,Urban population (% of total population),SP.URB.TOTL.IN.ZS,16.549
+Indonesia,IDN,1967,Urban population (% of total population),SP.URB.TOTL.IN.ZS,16.293
+Indonesia,IDN,1966,Urban population (% of total population),SP.URB.TOTL.IN.ZS,16.039
+Indonesia,IDN,1965,Urban population (% of total population),SP.URB.TOTL.IN.ZS,15.789
+Indonesia,IDN,1964,Urban population (% of total population),SP.URB.TOTL.IN.ZS,15.543
+Indonesia,IDN,1963,Urban population (% of total population),SP.URB.TOTL.IN.ZS,15.299
+Indonesia,IDN,1962,Urban population (% of total population),SP.URB.TOTL.IN.ZS,15.058
+Indonesia,IDN,1961,Urban population (% of total population),SP.URB.TOTL.IN.ZS,14.821
+Indonesia,IDN,1960,Urban population (% of total population),SP.URB.TOTL.IN.ZS,14.586
