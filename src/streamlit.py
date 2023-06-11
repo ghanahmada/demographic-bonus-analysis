@@ -127,14 +127,14 @@ fig_age.update_layout(height=375, width=600,margin={"r":0,"t":0,"l":60,"b":0},
 
 
 # Plot Population Density
-penduduk_prov = load_data(path="preprocessed_data\penduduk_per_provinsi_processed.csv")
+penduduk_prov = load_data(path="preprocessed_data/penduduk_per_provinsi_processed.csv")
 
 fig_kepadatan = fig_geographic_map(locations=penduduk_prov["Provinsi"],
                                    valuescale=penduduk_prov["2022"])
 
 
 # Visualization Clustering based on several aspects
-cluster_df = load_data(path="preprocessed_data\cluster_data.csv")
+cluster_df = load_data(path="preprocessed_data/cluster_data.csv")
 
 X = cluster_df.drop(["Provinsi"], axis=1).copy()
 quantity_cols = ["Jumlah Rumah Sakit Umum", "Jumlah Rumah Sakit Khusus", "Jumlah Puskesmas Rawat Inap", "Jumlah Puskesmas Non Rawat Inap",
