@@ -229,13 +229,18 @@ if __name__ == "__main__":
 
     st.subheader("Karakteristik Wilayah di Indonesia")
     LEFT3, RIGHT3 = st.columns([3,2])
-    plot_map = LEFT3.selectbox("Plot Map", ("Persebaran penduduk", "Clustering"))
+    plot_map = LEFT3.selectbox("Plot Map", ("Clustering", "Persebaran penduduk"))
     if plot_map == "Persebaran penduduk":
         LEFT3.plotly_chart(fig_kepadatan, use_container_width=True)
-        RIGHT3.subheader("\n\n\n\n\nSekitar 55% dari total penduduk di Indonesia menempati di Pulau Jawa")
+        RIGHT3.subheader("Sekitar 55% dari total penduduk di Indonesia menempati di Pulau Jawa")
     elif plot_map == "Clustering":
         LEFT3.plotly_chart(fig_cluster, use_container_width=True)
-        LEFT3.markdown("")
+        RIGHT3.subheader("  Deskripsi Cluster")
+        RIGHT3.markdown("- **Cluster 0**: pertumbuhan ekonomi [**TINGGI-182K**], IPM [SEDANG-74], rasio kemiskinan [SEDANG-6.6%], fasilitas kesehatan dan pendidikan [SEDANG-2836]")
+        RIGHT3.markdown("- **Cluster 1**: pertumbuhan ekonomi [SEDANG-61K], IPM [SEDANG-72], rasio kemiskinan [SEDANG-7.8%], fasilitas kesehatan dan pendidikan [SEDANG-3833]")
+        RIGHT3.markdown("- **Cluster 2**: pertumbuhan ekonomi [**TINGGI SEKALI-293K**], IPM [**TINGGI-82**], rasio kemiskinan [RENDAH-4.6%], fasilitas kesehatan dan pendidikan [SEDANG-1597]")
+        RIGHT3.markdown("- **Cluster 3**: pertumbuhan ekonomi [SEDANG-52K], IPM [SEDANG-72], rasio kemiskinan [SEDANG-9.7%], fasilitas kesehatan dan pendidikan [**TINGGI-17124**]")
+        RIGHT3.markdown("- **Cluster 4**: pertumbuhan ekonomi [**RENDAH-41K**], IPM [RENDAH-68], rasio kemiskinan [**TINGGI-17.1%**], fasilitas kesehatan dan pendidikan [SEDANG-3095]")
 
     LEFT4, MIDDLE4, RIGHT4 = st.columns([4, 1, 5])
     LEFT4.subheader("Korelasi Pertumbuhan Penduduk")
