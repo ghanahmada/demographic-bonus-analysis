@@ -1,10 +1,14 @@
 import json
+import numpy as np
 import streamlit as st
 import pandas as pd
+import seaborn as sns
 import plotly.graph_objs as go
+from scipy.stats import pearsonr
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.cluster import KMeans
 from plotly.subplots import make_subplots
+import matplotlib.pyplot as plt
 
 
 st.set_page_config(page_title="Capstone Project", page_icon=":chart_with_upwards_trend:", layout="wide")
@@ -62,8 +66,8 @@ fig_barplot.update_layout(yaxis=dict(autorange="reversed"), width=800,height=275
 
 
 # Plot Age Range
-umur_df = load_data(path="preprocessed_data/data_klasifikasi_umur.csv")
-umur_df = umur_df[umur_df["tahun"].isin([2018, 2022])]
+umur_df = load_data(path="preprocessed_data/data_klasifikasi_umur2.csv")
+umur_df = umur_df[umur_df["tahun"].isin([2011, 2021])]
 fig_age_bar = go.Figure(data=[
     go.Bar(name='Usia < 15 tahun', x=umur_df["tahun"], y=umur_df["usia_dibawah_15"], text=umur_df["usia_dibawah_15"], 
            marker_color="cornsilk", marker=dict(line=dict(color='rgba(10, 30, 20, 1.0)',
@@ -103,12 +107,12 @@ def fig_growth_annual(start_year=2000, end_year=2021):
 
 
 # Plot Age Range
-umur_df = load_data(path="preprocessed_data/data_klasifikasi_umur.csv")
+umur_df = load_data(path="preprocessed_data/data_klasifikasi_umur2.csv")
 umur_df["tahun"] = umur_df["tahun"].astype(str)
 used_cols = ["usia_dibawah_15", "usia_produktif", "usia_diatas_60"]
 
-umur_18 = umur_df[umur_df["tahun"] == "2018"][used_cols].values[0]
-umur_22 = umur_df[umur_df["tahun"] == "2022"][used_cols].values[0]
+umur_18 = umur_df[umur_df["tahun"] == "2011"][used_cols].values[0]
+umur_22 = umur_df[umur_df["tahun"] == "2021"][used_cols].values[0]
 
 labels = ["Usia < 15 tahun", "Usia 15-60 tahun", "Usia > 60 tahun"]
 
@@ -121,8 +125,8 @@ fig_age.add_trace(go.Pie(labels=labels, values=umur_22),
 fig_age.update_traces(hole=.3, hoverinfo="label+percent+name")
 
 fig_age.update_layout(height=375, width=600,margin={"r":0,"t":0,"l":60,"b":0},
-    annotations=[dict(text='2018', x=0.19, y=0.49, font_size=15, showarrow=False),
-                 dict(text='2022', x=0.81, y=0.49, font_size=15, showarrow=False)],
+    annotations=[dict(text='2011', x=0.19, y=0.49, font_size=15, showarrow=False),
+                 dict(text='2021', x=0.81, y=0.49, font_size=15, showarrow=False)],
                  legend=dict(orientation="h", xanchor = "center", x = 0.3, y= 1))
 
 
@@ -156,6 +160,23 @@ fig_cluster = fig_geographic_map(locations=cluster_df_res["Provinsi"],
                                  valuescale=cluster_df_res["no_cluster"])
 
 
+# Visualization heatmap correlation
+data_nasional = load_data(path="preprocessed_data/data_nasional.csv")
+data_corr = data_nasional[["Populasi, total", "PDB (mata uang US$)", "Angka kematian, bayi (per 1.000 kelahiran hidup)", "Harapan hidup saat lahir, total (tahun)",
+                           "Pengangguran, total (% dari angkatan kerja total)", "Indeks GINI", "Rasio jumlah masyarakat miskin pada garis kemiskinan nasional (% dari populasi)",
+                           "Pertumbuhan PDB (% tahunan)", "Inflasi, deflator PDB (% tahunan)"]].dropna()
+data_corr.rename(columns={"Populasi, total":"Total Populasi", "PDB (mata uang US$)": "PDB", "Angka kematian, bayi (per 1.000 kelahiran hidup)": "Angka kematian",
+                          "Harapan hidup saat lahir, total (tahun)":"Harapan Hidup", "Pengangguran, total (% dari angkatan kerja total)":"Total Pengangguran",
+                          "Indeks GINI":"Indeks GINI", "Rasio jumlah masyarakat miskin pada garis kemiskinan nasional (% dari populasi)": "Rasio Kemiskinan",
+                          "Pertumbuhan PDB (% tahunan)":"Pertumbuhan PDB", "Inflasi, deflator PDB (% tahunan)": "Inflasi"}, inplace=True)
+
+fig_corr = plt.figure(figsize=(10,8))
+new_df = {}
+for i in np.setdiff1d(data_corr.columns.values, ['Total Populasi']):
+  new_df[i] = pearsonr(data_corr['Total Populasi'],data_corr[i])
+new_df = pd.DataFrame(new_df, index=['Total Populasi','p_value']).T
+sns.heatmap(new_df.sort_values(by='Total Populasi', ascending=False), annot=True, cmap="Oranges")
+
 
 if __name__ == "__main__":
     if 'year_range' not in st.session_state: st.session_state.year_range = [2010, 2021]
@@ -163,7 +184,7 @@ if __name__ == "__main__":
     if 'plot_type' not in st.session_state: st.session_state.plot_type = "Persentase"
     if 'previous_plot_type' not in st.session_state: st.session_state.previous_plot_type = "Persentase"
 
-    JUDUL = st.title("Perkembangan Demografi di Indonesia")
+    JUDUL = st.title("Analisis Bonus Demografi di Indonesia")
     st.divider()
 
 
@@ -204,10 +225,11 @@ if __name__ == "__main__":
     elif plot_map == "Clustering":
         LEFT3.plotly_chart(fig_cluster, use_container_width=True)
 
-    LEFT4, RIGHT4 = st.columns(2)
+    LEFT4, MIDDLE4, RIGHT4 = st.columns([4, 1, 5])
     LEFT4.subheader("Korelasi Pertumbuhan Penduduk")
+    LEFT4.pyplot(fig_corr, use_container_width=True)
     RIGHT4.subheader("Kesimpulan")
-    RIGHT4.markdown("- Item 1")
+    RIGHT4.markdown("- ")
     RIGHT4.markdown("- Item 2")
     RIGHT4.markdown("- Item 3")
 
