@@ -227,21 +227,26 @@ if __name__ == "__main__":
     st.session_state.plot_type = RIGHT2.radio("",("Persentase","Jumlah"))
 
 
+    st.subheader("Karakteristik Wilayah di Indonesia")
     LEFT3, RIGHT3 = st.columns([3,2])
-    LEFT3.subheader("Karakteristik Wilayah di Indonesia")
     plot_map = LEFT3.selectbox("Plot Map", ("Persebaran penduduk", "Clustering"))
     if plot_map == "Persebaran penduduk":
         LEFT3.plotly_chart(fig_kepadatan, use_container_width=True)
+        RIGHT3.subheader("\n\n\n\n\nSekitar 55% dari total penduduk di Indonesia menempati di Pulau Jawa")
     elif plot_map == "Clustering":
         LEFT3.plotly_chart(fig_cluster, use_container_width=True)
+        LEFT3.markdown("")
 
     LEFT4, MIDDLE4, RIGHT4 = st.columns([4, 1, 5])
     LEFT4.subheader("Korelasi Pertumbuhan Penduduk")
     LEFT4.pyplot(fig_corr, use_container_width=True)
     RIGHT4.subheader("Kesimpulan")
-    RIGHT4.markdown("- ")
-    RIGHT4.markdown("- Item 2")
-    RIGHT4.markdown("- Item 3")
+    RIGHT4.markdown("""- Pertumbuhan penduduk di Indonesia mengalami penurunan dan telah berada di bawah angka 1% sejak tahun 2018. 
+                        Hal ini menunjukkan adanya **tren penurunan laju pertumbuhan penduduk** di negara ini.""")
+    RIGHT4.markdown("""- Dalam rentang waktu 2011 hingga 2021, terjadi peningkatan jumlah penduduk usia 15-60 tahun di Indonesia sehingga 
+                        mengindikasikan pergeseran demografi menuju **struktur penduduk yang lebih muda dan lebih berpotensi produktif**.""")
+    RIGHT4.markdown("""- Pulau Jawa menjadi tempat tinggal bagi sekitar 55% dari total penduduk Indonesia. Hal ini menunjukkan 
+                        konsentrasi penduduk yang tinggi di pulau ini sehingga dapat berdampak pada **ketimpangan ekonomi dan sosial antara provinsi di Indonesia**.""")
 
     st.divider()
     
