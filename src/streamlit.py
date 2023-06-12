@@ -144,7 +144,7 @@ fig_kepadatan = fig_geographic_map(locations=penduduk_prov["Provinsi"],
 
 
 # Visualization Clustering based on several aspects
-cluster_df = load_data(path="preprocessed_data\cluster_data.csv")
+cluster_df = load_data(path="preprocessed_data/cluster_data.csv")
 sum_facilities(cluster_df)
 
 X = cluster_df.drop(["Provinsi"], axis=1).copy()
