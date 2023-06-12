@@ -38,6 +38,12 @@ def fig_geographic_map(locations, valuescale):
                             mapbox=dict(center=dict(lat=-1.4393, lon=116.9213), zoom=3.4))
     return fig
 
+def sum_facilities(df: pd.DataFrame):
+    df["total_fasped"] = (df["kelurahan_jumlah_sd"] + df["kelurahan_jumlah_smp"] + 
+                          df["kelurahan_jumlah_sma"] + df["kelurahan_jumlah_smk"] + df["kelurahan_jumlah_pt"])
+    df["total_faskes"] = (df["Jumlah Rumah Sakit Umum"] + df["Jumlah Rumah Sakit Khusus"] + 
+                          df["Jumlah Puskesmas Rawat Inap"] + df["Jumlah Puskesmas Non Rawat Inap"])
+
 def populate_graph():
    if st.session_state.year_range != st.session_state.previous_year_range:
       st.session_state.previous_year_range = st.session_state.year_range.copy()
@@ -138,7 +144,8 @@ fig_kepadatan = fig_geographic_map(locations=penduduk_prov["Provinsi"],
 
 
 # Visualization Clustering based on several aspects
-cluster_df = load_data(path="preprocessed_data/cluster_data.csv")
+cluster_df = load_data(path="preprocessed_data\cluster_data.csv")
+sum_facilities(cluster_df)
 
 X = cluster_df.drop(["Provinsi"], axis=1).copy()
 quantity_cols = ["Jumlah Rumah Sakit Umum", "Jumlah Rumah Sakit Khusus", "Jumlah Puskesmas Rawat Inap", "Jumlah Puskesmas Non Rawat Inap",
@@ -147,11 +154,14 @@ quantity_cols = ["Jumlah Rumah Sakit Umum", "Jumlah Rumah Sakit Khusus", "Jumlah
 for col in quantity_cols:
     X[col] = X[col] / X["Luas Wilayah (km2)"]
 
+sum_facilities(X)
+X = X.drop(quantity_cols, axis=1)
+
 mm_scaler = MinMaxScaler()
 X_scaled = mm_scaler.fit_transform(X.values)
 X_scaled = pd.DataFrame(X_scaled, columns=X.columns).drop(["Luas Wilayah (km2)"], axis=1)
 
-kmeanModel = KMeans(n_clusters=5, random_state=42)
+kmeanModel = KMeans(n_clusters=5, random_state=2023)
 y=kmeanModel.fit(X_scaled).labels_
 cluster_df_res = pd.concat([cluster_df, pd.DataFrame(y, columns=["no_cluster"])], axis=1)
 
@@ -184,7 +194,7 @@ if __name__ == "__main__":
     if 'plot_type' not in st.session_state: st.session_state.plot_type = "Persentase"
     if 'previous_plot_type' not in st.session_state: st.session_state.previous_plot_type = "Persentase"
 
-    JUDUL = st.title("Analisis Bonus Demografi di Indonesia")
+    JUDUL = st.title("Analisis Demografi dan Karakteristik Setiap Provinsi di Indonesia")
     st.divider()
 
 
