@@ -27,14 +27,25 @@ def fig_geographic_map(locations, valuescale):
                                     featureidkey="properties.Propinsi",
                                     z=valuescale,
                                     colorscale="YlOrRd", 
-                                    marker_opacity=0.8,
-                                    marker_line_width=0.3))
+                                    marker_opacity=0.9,
+                                    marker_line_width=0.3,
+                                    colorbar=dict(
+                                            tickmode="array",
+                                            tickvals=[0, 1, 2, 3, 4], 
+                                            ticktext=["Cluster 0", "Cluster 1", "Cluster 2", "Cluster 3", "Cluster 4"], 
+                                            tickfont=dict(color="grey"),
+                                            len=0.6,
+                                            y=0.5,
+                                            x=1.02,)
+                                    ))
 
     fig.update_layout(mapbox_style="carto-positron",
                             height = 425,
                             width = 800,
                             autosize=True,
                             margin={"r":0,"t":0,"l":0,"b":0},
+                            # paper_bgcolor='#303030',
+                            # plot_bgcolor='#303030',
                             mapbox=dict(center=dict(lat=-1.4393, lon=116.9213), zoom=3.4))
     return fig
 
@@ -180,12 +191,13 @@ data_corr.rename(columns={"Populasi, total":"Total Populasi", "PDB (mata uang US
                           "Indeks GINI":"Indeks GINI", "Rasio jumlah masyarakat miskin pada garis kemiskinan nasional (% dari populasi)": "Rasio Kemiskinan",
                           "Pertumbuhan PDB (% tahunan)":"Pertumbuhan PDB", "Inflasi, deflator PDB (% tahunan)": "Inflasi"}, inplace=True)
 
+corr_target = "Rasio Kemiskinan"
 fig_corr = plt.figure(figsize=(10,8))
 new_df = {}
-for i in np.setdiff1d(data_corr.columns.values, ['Total Populasi']):
-  new_df[i] = pearsonr(data_corr['Total Populasi'],data_corr[i])
-new_df = pd.DataFrame(new_df, index=['Total Populasi','p_value']).T
-sns.heatmap(new_df.sort_values(by='Total Populasi', ascending=False), annot=True, cmap="Oranges")
+for i in np.setdiff1d(data_corr.columns.values, [corr_target]):
+  new_df[i] = pearsonr(data_corr[corr_target],data_corr[i])
+new_df = pd.DataFrame(new_df, index=[corr_target,'p_value']).T
+sns.heatmap(new_df.sort_values(by=corr_target, ascending=False), annot=True, cmap="Oranges")
 
 
 if __name__ == "__main__":
