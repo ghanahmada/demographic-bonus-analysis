@@ -230,7 +230,7 @@ if __name__ == "__main__":
     RIGHT.subheader("Tujuan", anchor="right")
     RIGHT.markdown("1. Memberikan wawasan mengenai kondisi demografi di Indonesia saat ini")
     RIGHT.markdown("2. Menganalisis setiap wilayah di Indonesia berdasarkan faktor ekonomi, sosial, dan pembangunan")
-    RIGHT.markdown("3. Mencari korelasi pertumbuhan penduduk dengan beberapa variabel demografi")
+    RIGHT.markdown("3. Mencari korelasi rasio kemiskinan dengan beberapa variabel demografi")
 
 
     LEFT2, RIGHT2 = st.columns(2)
@@ -262,7 +262,7 @@ if __name__ == "__main__":
         RIGHT3.markdown("- **Cluster 4**: pertumbuhan ekonomi [**RENDAH-41K**], IPM [RENDAH-68], rasio kemiskinan [**TINGGI-17.1%**], fasilitas kesehatan dan pendidikan [SEDANG-3095]")
 
     LEFT4, MIDDLE4, RIGHT4 = st.columns([4.25, 0.75, 5])
-    LEFT4.subheader("Korelasi Pertumbuhan Penduduk")
+    LEFT4.subheader("Korelasi Rasio Kemiskinan")
     LEFT4.pyplot(fig_corr, use_container_width=True)
     with LEFT4:
         with st.expander("Grafik Garis Hubungan"):
