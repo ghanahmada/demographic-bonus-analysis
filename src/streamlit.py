@@ -44,10 +44,17 @@ def fig_geographic_map(locations, valuescale):
                             width = 800,
                             autosize=True,
                             margin={"r":0,"t":0,"l":0,"b":0},
-                            # paper_bgcolor='#303030',
-                            # plot_bgcolor='#303030',
                             mapbox=dict(center=dict(lat=-1.4393, lon=116.9213), zoom=3.4))
     return fig
+
+def fig_linecorr(feature):
+    min_max_scaler = lambda column: (column - column.min()) / (column.max() - column.min())
+    fig_linecorr = go.Figure(data=[go.Scatter(x=data_corr["tahun"], name="Rasio Kemiskinan", line=dict(color="#F7BE6D"),
+                                              y=min_max_scaler(data_corr[corr_target]), mode="lines"),
+                                   go.Scatter(x=data_corr["tahun"], name=feature, line=dict(color="#F05E16"),
+                                              y=min_max_scaler(data_corr[feature]), mode="lines")])
+    fig_linecorr.update_layout(height=350, width=800, margin={"r":0,"t":0,"l":60,"b":0})
+    return fig_linecorr
 
 def sum_facilities(df: pd.DataFrame):
     df["total_fasped"] = (df["kelurahan_jumlah_sd"] + df["kelurahan_jumlah_smp"] + 
@@ -183,7 +190,7 @@ fig_cluster = fig_geographic_map(locations=cluster_df_res["Provinsi"],
 
 # Visualization heatmap correlation
 data_nasional = load_data(path="preprocessed_data/data_nasional.csv")
-data_corr = data_nasional[["Populasi, total", "PDB (mata uang US$)", "Angka kematian, bayi (per 1.000 kelahiran hidup)", "Harapan hidup saat lahir, total (tahun)",
+data_corr = data_nasional[["tahun", "Populasi, total", "PDB (mata uang US$)", "Angka kematian, bayi (per 1.000 kelahiran hidup)", "Harapan hidup saat lahir, total (tahun)",
                            "Pengangguran, total (% dari angkatan kerja total)", "Indeks GINI", "Rasio jumlah masyarakat miskin pada garis kemiskinan nasional (% dari populasi)",
                            "Pertumbuhan PDB (% tahunan)", "Inflasi, deflator PDB (% tahunan)"]].dropna()
 data_corr.rename(columns={"Populasi, total":"Total Populasi", "PDB (mata uang US$)": "PDB", "Angka kematian, bayi (per 1.000 kelahiran hidup)": "Angka kematian",
@@ -194,7 +201,7 @@ data_corr.rename(columns={"Populasi, total":"Total Populasi", "PDB (mata uang US
 corr_target = "Rasio Kemiskinan"
 fig_corr = plt.figure(figsize=(10,8))
 new_df = {}
-for i in np.setdiff1d(data_corr.columns.values, [corr_target]):
+for i in np.setdiff1d(data_corr.drop(["tahun"], axis=1).columns.values, [corr_target]):
   new_df[i] = pearsonr(data_corr[corr_target],data_corr[i])
 new_df = pd.DataFrame(new_df, index=[corr_target,'p_value']).T
 sns.heatmap(new_df.sort_values(by=corr_target, ascending=False), annot=True, cmap="Oranges")
@@ -254,9 +261,15 @@ if __name__ == "__main__":
         RIGHT3.markdown("- **Cluster 3**: pertumbuhan ekonomi [SEDANG-52K], IPM [SEDANG-72], rasio kemiskinan [SEDANG-9.7%], fasilitas kesehatan dan pendidikan [**TINGGI-17124**]")
         RIGHT3.markdown("- **Cluster 4**: pertumbuhan ekonomi [**RENDAH-41K**], IPM [RENDAH-68], rasio kemiskinan [**TINGGI-17.1%**], fasilitas kesehatan dan pendidikan [SEDANG-3095]")
 
-    LEFT4, MIDDLE4, RIGHT4 = st.columns([4, 1, 5])
+    LEFT4, MIDDLE4, RIGHT4 = st.columns([4.25, 0.75, 5])
     LEFT4.subheader("Korelasi Pertumbuhan Penduduk")
     LEFT4.pyplot(fig_corr, use_container_width=True)
+    with LEFT4:
+        with st.expander("Grafik Garis Hubungan"):
+            feature = st.selectbox("Pilih fitur", list(data_corr.drop(["tahun"], axis=1).columns))
+            fig_line = fig_linecorr(feature)
+            st.plotly_chart(fig_line, use_container_width=True)
+            
     RIGHT4.subheader("Kesimpulan")
     RIGHT4.markdown("""- Pertumbuhan penduduk di Indonesia mengalami penurunan dan telah berada di bawah angka 1% sejak tahun 2018. 
                         Hal ini menunjukkan adanya **tren penurunan laju pertumbuhan penduduk** di negara ini.""")
