@@ -229,7 +229,7 @@ if __name__ == "__main__":
     MIDDLE.plotly_chart(fig_barplot, use_container_width=True)
     RIGHT.subheader("Tujuan", anchor="right")
     RIGHT.markdown("1. Memberikan wawasan mengenai kondisi demografi di Indonesia saat ini")
-    RIGHT.markdown("2. Menganalisis setiap wilayah di Indonesia berdasarkan faktor ekonomi, pendidikan, dan kesehatan")
+    RIGHT.markdown("2. Menganalisis setiap wilayah di Indonesia berdasarkan faktor ekonomi, sosial, dan pembangunan")
     RIGHT.markdown("3. Mencari korelasi pertumbuhan penduduk dengan beberapa variabel demografi")
 
 
